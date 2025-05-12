@@ -1,0 +1,24 @@
+*{
+  background-color: black;
+  margin: auto;
+  padding : auto;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2px;
+  grid-auto-rows: 100px;
+  grid-auto columns: 50px;
+}
+.item{
+  background-color: pink;
+  color: white;
+  border: 3px blue solid;  
+}
+.item1{
+  height: 200px;
+}
+.item2{
+  grid-area: nav;
+  width: 200px;;
+}
